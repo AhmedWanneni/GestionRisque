@@ -1,0 +1,137 @@
+.traitement-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    >div:nth-child(-n+3){
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: .5rem;
+        div{
+            display: flex;
+            
+        }
+        *{
+            margin-right: 1.5rem;
+        }
+    }
+    .form-control-trait{
+        width: 22rem;
+        label{
+            margin-top: .5rem !important;
+        }
+        margin-bottom: 1rem !important;
+    }
+    .data-table-traitement{
+        box-shadow: none !important;
+    }
+    
+}
+.tabs-traitement{
+    background-color: var(--black);
+}
+.tab-traitement{
+    background-color: white;
+}
+.data-table-traitement{
+    box-shadow: none !important;
+
+}
+.menace-container{
+    display: flex;
+    flex-direction: column;
+}
+.btn-menace{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    >button:nth-child(1){
+    margin-right: .5rem;
+    
+    }
+    button{
+        background: var(--black);
+    }
+}
+.impact-container{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    div{
+        margin-right: 2rem;
+    }
+    label{
+        margin-right: 3rem;
+    }
+    button{
+        background-color: var(--black);
+    }
+    
+    
+}
+.risque-container{
+    >div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        div{
+            margin-right: 2rem;
+        }
+    }
+    >div:nth-child(2){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    >div:nth-last-child(-n+4){
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom : 2rem;
+        justify-content: center;
+    }
+    button{
+        background-color: var(--black);
+    }
+}
+
+.vul-container{
+    display: flex;
+    flex-direction: column;
+    >div:nth-child(1){
+        margin-top: 0;
+    }
+    div{
+        margin-top: 1rem;
+    }
+    
+}
+.choisir{
+    text-align:center;
+    background: var(--black);
+    border: none;
+    padding: 1rem;
+    color : #fff
+}
+.traitement-container-s{
+    padding: 2rem;
+}
+.session-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.session-btn a{
+    background-color: var(--black);
+    padding: 1rem;
+    margin-right: 1rem;
+    color: white;
+}

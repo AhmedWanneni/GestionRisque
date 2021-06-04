@@ -1,0 +1,33 @@
+@import "TopBar";
+@import "form";
+@import "card";
+@import "gestion";
+@import "sidebar";
+@import "traitement";
+$content-color : #e8e8e8;
+
+.logout {
+    align-self: flex-end;
+    font-size: 36px;
+    color: var(--black);
+    margin-right: 2rem;
+}
+
+.back{
+    align-self: flex-start;
+    font-size: 36px;
+    color: var(--black);
+    margin-left: 2rem;
+}
+.black{
+    color : var(--black);
+}
+.b-black{
+    border : solid 2px var(--black);
+    border-radius: 7px;
+}
+.content-wrapper{
+    display: flex;
+    background: $content-color;
+    flex-direction: column;
+}

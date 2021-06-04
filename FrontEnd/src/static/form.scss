@@ -1,0 +1,171 @@
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+    gap: 1rem;
+    padding: 3rem;
+    box-shadow: 7px 8px 10px 3px #80808061;
+    background: #fff;
+    .field{
+    margin-bottom: 0;}
+    i{
+        color : #4a4a4a;
+    }
+    span{
+        text-align: center;
+    }
+    label{
+        font-weight: 700;
+        
+        
+    }
+    .AddUser-btn{
+        background-color: var(--black);
+            color: #fff;
+            fill : #fff;
+            margin:0;
+            position:relative;
+            bottom:-1rem;
+            border: none;
+            width: 50%;
+            align-self: center;
+            padding: 1rem;
+            font-weight: 700;
+            
+            margin-top: 2rem;
+            transition: .2s;
+            margin: 0;
+            position: relative;
+            bottom: -1rem;
+            i{
+                color : #fff;
+                font-size: 23px;
+            }
+    }
+    button{
+        background-color: var(--black);
+        color: #fff;
+        fill : #fff;
+        
+        border: none;
+        width: 50%;
+        align-self: center;
+        padding: 1rem;
+        font-weight: 700;
+        
+        margin-top: 2rem;
+        transition: .2s;
+        i{
+            color : #fff;
+            font-size: 26px;
+        }
+    }
+    button:hover{
+        letter-spacing: 3px;
+        cursor: pointer;
+        transition: .4s;
+    }
+    a{
+        align-self: center;
+    }
+    input{
+        font-size: 16px;
+        padding: 0.5em 1em;
+        color: #333;
+        background-color: #dadada;
+        border: none;
+    
+    }
+    @media (max-width:1145px) {
+        width:100%;
+        border: none;
+        box-shadow: none;
+        & *{
+            width:100%
+        }
+        &>a{
+            text-align: center;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+}
+
+
+    .ImgLoginWrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 7.5REM;
+        height: 7.5REM;
+        align-self: CENTER;
+        border: SOLID 1PX #80808099;
+        background-color: #FFF;
+        border-radius: 50%;
+        box-shadow: 0px 4px 1px 1px #80808021;
+        margin-bottom: -2rem;
+        z-index: 1;
+    
+    img{
+        width: 5rem;
+        border-radius: 50%;
+    }
+    
+}
+
+.ImgSignUpWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6REM;
+    height: 6REM;
+    align-self: CENTER;
+    border: SOLID 1PX #80808099;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    box-shadow: 0px 4px 1px 1px #80808021;
+    margin-bottom: -4rem;
+    z-index: 1;
+
+    
+    img{
+        width: 4rem;
+        border-radius: 50%;
+    }
+}
+.field-date{
+    width: 100%;
+    
+    border-radius: 7px;
+    border: solid 1px #dbdbdb;
+    color: #dbdbdb;
+    padding-left: 1rem;
+    border : solid 2px #000;
+    input{
+        color: #dbdbdb;
+        width: 100%;
+        -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.5em - 1px);
+    
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    
+    }
+    input:active{
+        color : #000;
+    }
+}
