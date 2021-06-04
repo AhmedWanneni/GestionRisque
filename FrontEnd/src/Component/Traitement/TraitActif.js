@@ -8,7 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import MUIDataTable from "mui-datatables";
 import { Button } from '@material-ui/core';
 
-import { Afficher_Actif } from '../../Utils/Affichage';
+import { Afficher_Actifs } from '../../Utils/Affichage';
 
 
 export default class TraitActif extends Component {
@@ -22,7 +22,7 @@ export default class TraitActif extends Component {
         }
     }
     componentDidMount(){
-        Afficher_Actif().then((res) => this.setState({actif:res,isLoading:true})).catch(
+        Afficher_Actifs().then((res) => this.setState({actif:res,isLoading:true})).catch(
             (err) => console.log(err)
         )
 
